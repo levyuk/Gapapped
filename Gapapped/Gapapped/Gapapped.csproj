@@ -60,14 +60,16 @@
     <Content Include="config.xml" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="graphics\glyphicons-halflings-white.png" />
-    <Content Include="graphics\glyphicons-halflings.png" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
     <Content Include="index.html" />
     <Content Include="js\app.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\controller.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
     <Content Include="partials\contact.html" />
     <Content Include="partials\home.html" />
+    <Content Include="partials\notes.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +84,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\angular.min.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

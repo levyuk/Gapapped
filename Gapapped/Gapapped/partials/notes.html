@@ -1,0 +1,8 @@
+﻿<div class="row-fluid">
+    <input class="span8" type="text" data-ng-model="newNote" placeholder="Type some text...then click add note" /><a data-ng-click="addNote()" class="btn btn-info span4"><i class="icon-white icon-plus-sign"></i>Add Note</a>
+</div>
+
+<div data-ng-repeat="note in notes" class="row-fluid">
+    <div class="span3">{{note.dateTime | formattedDate:'MMM dd, yyyy HH:mm' }}</div>
+    <div class="span9">{{note.description}}</div>
+</div>
