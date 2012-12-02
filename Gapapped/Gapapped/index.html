@@ -1,25 +1,25 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <title>Gapapped</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
-    <script src="js/angular.min.js"></script>
-    <script src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
         function onLoad() {
+            alert('Loaded');
             document.addEventListener('deviceready', onDeviceReady, false);
         }
 
-        function onDeviceReady() {
-            angular.bootstrap(document, ['ngView']);
+        function onDeviceReady() {            
             document.addEventListener('resume', onResume, true);
         }
-
+        
         function onResume() {
             alert('Resuming!');
         }

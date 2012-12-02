@@ -1,9 +1,9 @@
-﻿function HomeCtrl($http) {
-
+﻿function HomeCtrl($scope, $http) {
+    $scope.Title = 'Home';
 }
 
-function ContactCtrl($http) {
-
+function ContactCtrl($scope, $http) {
+    $scope.Title = 'Contacts';
 }
 
 function NotesCtrl($scope, $http) {
@@ -20,6 +20,6 @@ function NotesCtrl($scope, $http) {
     }
 }
 
-HomeCtrl.$inject = ['$http'];
-ContactCtrl.$inject = ['$http'];
+HomeCtrl.$inject = ['$scope', '$http'];
+ContactCtrl.$inject = ['$scope', '$http'];
 NotesCtrl.$inject = ['$scope', '$http'];
