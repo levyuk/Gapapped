@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="app">
+<html>
 <head>
     <title>Gapapped</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
@@ -16,7 +16,8 @@
         }
 
         function onDeviceReady() {
-            document.addEventListener('resume', onResume, false);
+            angular.bootstrap(document, ['ngView']);
+            document.addEventListener('resume', onResume, true);
         }
 
         function onResume() {
