@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<widget id="com.phonegap.gapapped" version="0.0.1">
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10"
+        version   = "0.0.1">
   <name>Gappapped</name>
   <description>A random test app</description>
   <author>
     J
   </author>
+  <access origin="*" />
 </widget>

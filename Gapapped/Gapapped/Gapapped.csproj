@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="config.xml" />
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="graphics\glyphicons-halflings-white.png" />
