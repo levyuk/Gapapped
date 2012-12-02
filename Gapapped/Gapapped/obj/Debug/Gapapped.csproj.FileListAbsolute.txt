@@ -1,0 +1,5 @@
+E:\SkyDrive\GitHub\Gapapped\Gapapped\Gapapped\bin\Gapapped.dll
+E:\SkyDrive\GitHub\Gapapped\Gapapped\Gapapped\bin\Gapapped.pdb
+E:\SkyDrive\GitHub\Gapapped\Gapapped\Gapapped\obj\Debug\Gapapped.csprojResolveAssemblyReference.cache
+E:\SkyDrive\GitHub\Gapapped\Gapapped\Gapapped\obj\Debug\Gapapped.dll
+E:\SkyDrive\GitHub\Gapapped\Gapapped\Gapapped\obj\Debug\Gapapped.pdb
